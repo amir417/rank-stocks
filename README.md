@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+Rank Stocks (rankstocks.com)
+Idea:
+The idea of the website is to ask users what they thing of listed stocks and rank the stocks
+based on user rankings. The aim of the website is to help investors validate their ideas
+towards a certain stock by looking at what others think of the website. If an investor think
+highly of a stock but everyone else believes otherwise, they will have to be more careful with
+their investments.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features:
+● The website will list all stocks listed on Nasdaq.
+● It will let users express their ideas about any stocks they prefer.
+● It will ask for the user’s prediction on different criteria on how the stock will
+perform. Will ask the user for:
+○ The price target for a month, 6 months, and a year from now.
+○ If they own the stock and how much (will be private for the user)
+○ Prediction for the stock’s upcoming esp
+○ Rank growth
+○ Rank profitability
+○ Rank valuation (overvalued or undervalued?)
+○ And much more
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+To validate if the investor is a legitimate investor, their prediction will be compared with the
+real outcome to see how accurate their predictions were. This will allow the website to rank
+the investors based on their performance. Thus, investors with higher creditability will be
+ranked higher and their opinion will matter more.
+The website will list the investors with the highest credibility and those who are consistently
+wrong will lose the ability to rank any stock after a certain point. (for example, if the investors
+are ranked from 1-10, those whose ranking falls below 2 will no longer have the ability to
+share their prediction and those with a 10 will be valued the most.)
+After asking those of friend of mine who regularly invest in the stock market, I came to the
+conclusion that the current websites (listed below) only use well-known analysts who in most
+case are not trustable since their opinion is highly influenced by their personal benefits and
+whoever pays them the most for a recommendation.
+People are interested to know what other discretionary investors think which is much less
+manipulated.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Websites that currently support similar services as (rankstocks.com):
+● https://daytradingz.com/go/seeking-alpha-offer/
+● https://daytradingz.com/go/www.finviz.com/
+● https://www.stockrover.com/
+● https://daytradingz.com/go/zacks-premium-trial/
+● https://daytradingz.com/go/benzinga-pro-free-trial/
+● https://daytradingz.com/go/www.tradingview.com/
+● And much more…
