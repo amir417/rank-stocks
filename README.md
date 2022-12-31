@@ -1,3 +1,6 @@
+Link: https://rank-stocks.netlify.app/
+
+
 Rank Stocks (rankstocks.com)
 Idea:
 The idea of the website is to ask users what they thing of listed stocks and rank the stocks
