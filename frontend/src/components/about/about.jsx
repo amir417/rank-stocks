@@ -1,13 +1,14 @@
-import logo from './rankstocksthumbnail.png';
-import './App.css';
+import React from 'react'
+import './about.css'
+import logo from '../../assets/rankstocksthumbnail.png';
 
-function App() {
+function home() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Rank Stocks is currently in progress!
+          ABOUT US PAGE
         </p>
         <p>
           Author: <a target="_blank" className="personal-link" href='https://www.linkedin.com/in/amirrezaaazam/'>Amirreza Aazam</a>
@@ -22,7 +23,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default home
